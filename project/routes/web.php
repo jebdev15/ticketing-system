@@ -10,5 +10,7 @@ Route::inertia('/', 'welcome', [
 Route::middleware(['auth', 'verified'])->group(function () {
     Route::inertia('dashboard', 'dashboard')->name('dashboard');
 });
-// ajskdjkasjd
+// ajskdjkasjd ta
+//tessasas
+// adasdasd
 require __DIR__ . '/settings.php';
